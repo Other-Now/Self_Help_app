@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/imgIconAbout"
+        android:layout_width="205dp"
+        android:layout_height="207dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/appicon" />
+
+    <TextView
+        android:id="@+id/txtNameAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Self-Help"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/imgIconAbout"
+        app:layout_constraintStart_toStartOf="@+id/imgIconAbout"
+        app:layout_constraintTop_toBottomOf="@+id/imgIconAbout" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version:1.0"
+        app:layout_constraintEnd_toEndOf="@+id/txtNameAbout"
+        app:layout_constraintTop_toBottomOf="@+id/txtNameAbout" />
+
+    <TextView
+        android:id="@+id/textHeadingAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Designed and Developed By:"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/txtAbout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="serif-monospace"
+        android:text="MANPRIT"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHeadingAbout" />
+
+    <TextView
+        android:id="@+id/txtAbout12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_email"
+        android:textColor="#FA1111"
+        app:layout_constraintBottom_toBottomOf="@+id/txtAbout1"
+        app:layout_constraintStart_toEndOf="@+id/txtAbout2"
+        app:layout_constraintTop_toTopOf="@+id/txtAbout1" />
+
+    <TextView
+        android:id="@+id/txtAbout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:fontFamily="serif-monospace"
+        android:text="DEV KUMAR SETH"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAbout1" />
+
+    <TextView
+        android:id="@+id/txtAbout22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="@string/dev_email"
+        android:textColor="#F84646"
+        app:layout_constraintBottom_toBottomOf="@+id/txtAbout2"
+        app:layout_constraintStart_toEndOf="@+id/txtAbout2"
+        app:layout_constraintTop_toTopOf="@+id/txtAbout2" />
+
+    <TextView
+        android:id="@+id/txtAbout3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:fontFamily="serif-monospace"
+        android:text="NILESH PRAKESH"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAbout2" />
+
+    <TextView
+        android:id="@+id/txtAbout32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="@string/nilesh_email"
+        android:textColor="#FB5050"
+        app:layout_constraintBottom_toBottomOf="@+id/txtAbout3"
+        app:layout_constraintStart_toEndOf="@+id/txtAbout3"
+        app:layout_constraintTop_toTopOf="@+id/txtAbout3" />
+
+    <TextView
+        android:id="@+id/txtAbout4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:fontFamily="serif-monospace"
+        android:text="AKASH KANNAUJIA"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAbout3" />
+
+    <TextView
+        android:id="@+id/txtAbout42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:text="@string/akash_email"
+        android:textColor="#FD4D4D"
+        app:layout_constraintBottom_toBottomOf="@+id/txtAbout4"
+        app:layout_constraintStart_toEndOf="@+id/txtAbout4"
+        app:layout_constraintTop_toTopOf="@+id/txtAbout4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
