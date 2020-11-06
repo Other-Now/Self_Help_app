@@ -1,0 +1,57 @@
+net/penguincoders/doit/DialogCloseListener.java
+ net.penguincoders.doit.DialogCloseListener
+net/penguincoders/doit/Adapters/ToDoAdapter.java
+ net.penguincoders.doit.Adapters.ToDoAdapter
+ net.penguincoders.doit.Adapters.ToDoAdapter$1
+ net.penguincoders.doit.Adapters.ToDoAdapter$ViewHolder
+net/penguincoders/doit/RecItem.java
+ net.penguincoders.doit.RecItem
+net/penguincoders/doit/RecyclerItemTouchHelper.java
+ net.penguincoders.doit.RecyclerItemTouchHelper
+ net.penguincoders.doit.RecyclerItemTouchHelper$1
+ net.penguincoders.doit.RecyclerItemTouchHelper$2
+net/penguincoders/doit/NearbyHospitalsActivity.java
+ net.penguincoders.doit.NearbyHospitalsActivity
+net/penguincoders/doit/UtilsRec.java
+ net.penguincoders.doit.UtilsRec
+ net.penguincoders.doit.UtilsRec$1
+ net.penguincoders.doit.UtilsRec$2
+net/penguincoders/doit/Model/ToDoModel.java
+ net.penguincoders.doit.Model.ToDoModel
+net/penguincoders/doit/MainActivity.java
+ net.penguincoders.doit.MainActivity
+ net.penguincoders.doit.MainActivity$1
+net/penguincoders/doit/AddNewTask.java
+ net.penguincoders.doit.AddNewTask
+ net.penguincoders.doit.AddNewTask$1
+ net.penguincoders.doit.AddNewTask$2
+net/penguincoders/doit/HealthTipsActivity.java
+ net.penguincoders.doit.HealthTipsActivity
+net/penguincoders/doit/FirstAidAdapter.java
+ net.penguincoders.doit.FirstAidAdapter
+ net.penguincoders.doit.FirstAidAdapter$ViewHolder
+net/penguincoders/doit/FirstAidTipsActivity.java
+ net.penguincoders.doit.FirstAidTipsActivity
+net/penguincoders/doit/RecMainAdapter.java
+ net.penguincoders.doit.RecMainAdapter
+ net.penguincoders.doit.RecMainAdapter$1
+ net.penguincoders.doit.RecMainAdapter$1$1
+ net.penguincoders.doit.RecMainAdapter$1$2
+ net.penguincoders.doit.RecMainAdapter$1$3
+ net.penguincoders.doit.RecMainAdapter$1$4
+ net.penguincoders.doit.RecMainAdapter$ViewHolder
+net/penguincoders/doit/BuildConfig.java
+ net.penguincoders.doit.BuildConfig
+net/penguincoders/doit/KnowYourMedActivity.java
+ net.penguincoders.doit.KnowYourMedActivity
+net/penguincoders/doit/AboutActivity.java
+ net.penguincoders.doit.AboutActivity
+net/penguincoders/doit/Utils/DatabaseHandler.java
+ net.penguincoders.doit.Utils.DatabaseHandler
+net/penguincoders/doit/ButtonPageActivity.java
+ net.penguincoders.doit.ButtonPageActivity
+net/penguincoders/doit/CoronaTipsActivity.java
+ net.penguincoders.doit.CoronaTipsActivity
+net/penguincoders/doit/SplashActivity.java
+ net.penguincoders.doit.SplashActivity
+ net.penguincoders.doit.SplashActivity$1

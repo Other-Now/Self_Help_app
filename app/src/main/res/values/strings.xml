@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Self-Help</string>
+    <string name="save">Save</string>
+    <string name="new_task">New Task</string>
+    <string name="tasks">Med Reminder List</string>
+    <string name="logout">LODOUT</string>
+    <string name="med_reminder">Med Intake List</string>
+    <string name="know_your_med">Let Us Know Your Meds</string>
+    <string name="first_aid_tips">Basic First Aid Tips</string>
+    <string name="health_tips">Some Health Tips</string>
+    <string name="corona">Corona Related Tips</string>
+    <string name="nearby_hospitals">Hospitals Nearby Available</string>
+    <string name="splash_heading">Self-Help Quarentine App</string>
+    <string name="my_email">manprit.student.mat19@itbhu.ac.in</string>
+    <string name="akash_email">akash.kannaujiya.mat19@itbhu.ac.in</string>
+    <string name="dev_email">devkumar.seth.cd.mat19@itbhu.ac.in</string>
+    <string name="nilesh_email">nileshp.prakash.mat19@itbhu.ac.in</string>
+</resources>
