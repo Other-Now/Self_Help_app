@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".ChecklistFirstAidActivity">
+
+    <TextView
+        android:id="@+id/txtCheckHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/bungee_inline"
+        android:text="@string/first_aid_checklist"
+        android:textColor="#FF6D00"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imgCheck"
+        android:layout_width="380dp"
+        android:layout_height="210dp"
+        android:layout_below="@id/txtCheckHeading"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/first_aid_check" />
+
+    <CheckBox
+        android:id="@+id/txtCheck1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgCheck"
+        android:text="@string/anti_bacterial_wipes" />
+
+    <CheckBox
+        android:id="@+id/txtCheck2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheck1"
+        android:text="@string/painkillers" />
+
+    <CheckBox
+        android:id="@+id/txtCheck3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheck2"
+        android:text="@string/gauze_pads" />
+
+    <CheckBox
+        android:id="@+id/txtCheck4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheck3"
+        android:text="@string/sunscreen" />
+
+    <CheckBox
+        android:id="@+id/txtCheck5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheck4"
+        android:text="@string/medical_gloves" />
+
+    <CheckBox
+        android:id="@+id/txtCheck6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheck5"
+        android:text="@string/medical_instrument_kit" />
+
+    <CheckBox
+        android:id="@+id/txtCheck7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheck6"
+        android:text="@string/bandages_band_aids" />
+
+    <CheckBox
+        android:id="@+id/txtCheck8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgCheck"
+        android:layout_toEndOf="@id/txtCheck6"
+        android:text="@string/antiseptic_wipes"
+        android:layout_marginStart="5dp"/>
+    <CheckBox
+        android:id="@+id/txtCheck9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheck8"
+        android:layout_toEndOf="@id/txtCheck6"
+        android:text="@string/first_aid_instructions"
+        android:layout_marginStart="5dp"/>
+    <CheckBox
+        android:id="@+id/txtCheck10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheck9"
+        android:layout_toEndOf="@id/txtCheck6"
+        android:text="@string/safety_pins"
+        android:layout_marginStart="5dp"/>
+    <CheckBox
+        android:id="@+id/txtCheck11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheck3"
+        android:layout_toEndOf="@id/txtCheck6"
+        android:text="@string/scissors"
+        android:layout_marginStart="5dp"/>
+    <CheckBox
+        android:id="@+id/txtCheck12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheck11"
+        android:layout_toEndOf="@id/txtCheck6"
+        android:text="@string/adhesive_cloth_tape"
+        android:layout_marginStart="5dp"/>
+    <CheckBox
+        android:id="@+id/txtCheck13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheck12"
+        android:layout_toEndOf="@id/txtCheck6"
+        android:text="@string/thermometer"
+        android:layout_marginStart="5dp"/>
+    <CheckBox
+        android:id="@+id/txtCheck14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtCheck6"
+        android:layout_toEndOf="@id/txtCheck6"
+        android:text="@string/instant_cold_pack"
+        android:layout_marginStart="5dp"/>
+
+</RelativeLayout>
