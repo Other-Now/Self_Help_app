@@ -12,10 +12,13 @@ net/penguincoders/doit/RecyclerItemTouchHelper.java
  net.penguincoders.doit.RecyclerItemTouchHelper$2
 net/penguincoders/doit/NearbyHospitalsActivity.java
  net.penguincoders.doit.NearbyHospitalsActivity
+ net.penguincoders.doit.NearbyHospitalsActivity$1
 net/penguincoders/doit/UtilsRec.java
  net.penguincoders.doit.UtilsRec
  net.penguincoders.doit.UtilsRec$1
  net.penguincoders.doit.UtilsRec$2
+ net.penguincoders.doit.UtilsRec$3
+ net.penguincoders.doit.UtilsRec$4
 net/penguincoders/doit/Model/ToDoModel.java
  net.penguincoders.doit.Model.ToDoModel
 net/penguincoders/doit/MainActivity.java
@@ -29,6 +32,7 @@ net/penguincoders/doit/HealthTipsActivity.java
  net.penguincoders.doit.HealthTipsActivity
 net/penguincoders/doit/FirstAidAdapter.java
  net.penguincoders.doit.FirstAidAdapter
+ net.penguincoders.doit.FirstAidAdapter$1
  net.penguincoders.doit.FirstAidAdapter$ViewHolder
 net/penguincoders/doit/FirstAidTipsActivity.java
  net.penguincoders.doit.FirstAidTipsActivity
@@ -42,8 +46,11 @@ net/penguincoders/doit/RecMainAdapter.java
  net.penguincoders.doit.RecMainAdapter$ViewHolder
 net/penguincoders/doit/BuildConfig.java
  net.penguincoders.doit.BuildConfig
+net/penguincoders/doit/ChecklistFirstAidActivity.java
+ net.penguincoders.doit.ChecklistFirstAidActivity
 net/penguincoders/doit/KnowYourMedActivity.java
  net.penguincoders.doit.KnowYourMedActivity
+ net.penguincoders.doit.KnowYourMedActivity$1
 net/penguincoders/doit/AboutActivity.java
  net.penguincoders.doit.AboutActivity
 net/penguincoders/doit/Utils/DatabaseHandler.java

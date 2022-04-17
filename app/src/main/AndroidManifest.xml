@@ -12,7 +12,8 @@
         android:roundIcon="@drawable/iconp"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".ChecklistFirstAidActivity"></activity>
+        <activity android:name=".AboutActivity" />
         <activity
             android:name=".NearbyHospitalsActivity"
             android:label="@string/nearby_hospitals" />

@@ -5,12 +5,23 @@
     android:id="@+id/firstAidParent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FirstAidTipsActivity">
+    tools:context=".FirstAidTipsActivity"
+    android:padding="5dp">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recFirstAid"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/activity_first_aids" />
 </androidx.constraintlayout.widget.ConstraintLayout>

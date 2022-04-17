@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
         <item>@font/aclonica</item>
+        <item>@font/aldrich</item>
+        <item>@font/alfa_slab_one</item>
         <item>@font/amaranth_bold</item>
         <item>@font/bungee_inline</item>
+        <item>@font/montserrat</item>
+        <item>@font/source_sans_pro</item>
+        <item>@font/source_sans_pro_black</item>
     </array>
 </resources>

@@ -53,8 +53,7 @@ public class RecMainAdapter extends RecyclerView.Adapter<RecMainAdapter.ViewHold
                     case 2:
                         AlertDialog.Builder builder = new AlertDialog.Builder(mContext,R.style.AlertDialogTheme);  //Here builder would be of anderoidx.appcombat type
                         builder.setTitle(R.string.know_your_med);
-                        builder.setMessage("Do you wish to know about your med?\n" +
-                                "then, click on the YES button");
+                        builder.setMessage("Do you wish to know about your med?");
                         builder.setNeutralButton("Dismiss", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -87,8 +86,8 @@ public class RecMainAdapter extends RecyclerView.Adapter<RecMainAdapter.ViewHold
                     case 6:
                         AlertDialog.Builder builder2 = new AlertDialog.Builder(mContext,R.style.AlertDialogTheme);  //Here builder would be of anderoidx.appcombat type
                         builder2.setTitle(R.string.nearby_hospitals);
-                        builder2.setMessage("If you wish to see the nearby hospitals available\n" +
-                                "click on the VISIT button");
+                        builder2.setMessage("If you wish to search for hospitals in google map\n" +
+                                "Click on the VISIT button");
                         builder2.setNeutralButton("Dismiss", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -105,6 +104,26 @@ public class RecMainAdapter extends RecyclerView.Adapter<RecMainAdapter.ViewHold
                             }
                         });
                         builder2.create().show();
+                        break;
+                    case 7:
+                        Intent intent7 = new Intent(mContext, NearbyHospitalsActivity.class);
+                        intent7.putExtra("url","https://www.stylecraze.com/articles/seasonal-diseases-and-precautions/");  //it will pass the web address to be opened in webactivity.
+                        mContext.startActivity(intent7);
+                        break;
+                    case 8:
+                        Intent intent8 = new Intent(mContext, NearbyHospitalsActivity.class);
+                        intent8.putExtra("url","https://www.vedyou.com/blog/easy-yoga-asanas-for-mental-health/");  //it will pass the web address to be opened in webactivity.
+                        mContext.startActivity(intent8);
+                        break;
+                    case 9:
+                        Intent intent9 = new Intent(mContext, NearbyHospitalsActivity.class);
+                        intent9.putExtra("url","https://www.healthline.com/nutrition/27-health-and-nutrition-tips");  //it will pass the web address to be opened in webactivity.
+                        mContext.startActivity(intent9);
+                        break;
+                    case 10:
+                        Intent intent10 = new Intent(mContext, NearbyHospitalsActivity.class);
+                        intent10.putExtra("url","https://www.healthline.com/health/fitness-exercise/10-best-exercises-everyday");  //it will pass the web address to be opened in webactivity.
+                        mContext.startActivity(intent10);
                         break;
                     default:
                         break;
